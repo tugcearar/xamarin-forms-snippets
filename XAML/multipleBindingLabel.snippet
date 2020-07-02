@@ -2,15 +2,22 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>Android Platform Spec Snippet</Title>
+            <Title>Multiple Binding Label Snippet</Title>
 			<Author>Sumeyya Tugce Arar</Author>
-    <Description>XAML namespace</Description>
-    <Shortcut>andSpec</Shortcut>
+    <Shortcut>lbl</Shortcut>
         </Header>
         <Snippet>
             <Code Language="XAML">
                 <![CDATA[  
-				  xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WHATYOUNEED;assembly=Xamarin.Forms.Core"
+				 <Label>
+    <Label.Text>
+        <MultiBinding StringFormat="{}{0} {1} {2}">
+            <Binding Path="BIND1" />
+            <Binding Path="BIND2" />
+            <Binding Path="BIND3" />
+        </MultiBinding>
+    </Label.Text>
+</Label>
 ]]>
             </Code>
         </Snippet>

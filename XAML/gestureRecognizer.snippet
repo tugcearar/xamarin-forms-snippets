@@ -2,15 +2,17 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>Android Platform Spec Snippet</Title>
+            <Title>Tap Gesture Recognizer Snippet</Title>
 			<Author>Sumeyya Tugce Arar</Author>
-    <Description>XAML namespace</Description>
-    <Shortcut>andSpec</Shortcut>
+    <Shortcut>tapgesture</Shortcut>
         </Header>
         <Snippet>
             <Code Language="XAML">
                 <![CDATA[  
-				  xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WHATYOUNEED;assembly=Xamarin.Forms.Core"
+				 <LAYOUT.GestureRecognizers>
+                 <TapGestureRecognizer Tapped="EVENT" Command="{Binding TAPCOMMAND}" CommandParameter="{Binding PARAMETER}">
+                  </TapGestureRecognizer>
+                  </LAYOUT.GestureRecognizers>
 ]]>
             </Code>
         </Snippet>
