@@ -9,4 +9,6 @@
 <h5>C#</h5>
 <ul>
   <li>Bindable Property</li>  
+  <li>Custom Renderer Assembly Attribute</li>  
+  <li>Dependency Service Assembly Attribute</li>  
 </ul>
