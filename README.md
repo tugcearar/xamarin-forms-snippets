@@ -1,1 +1,1 @@
-#My Code Snippets for Xamarin.Forms
+My Code Snippets for Xamarin.Forms
